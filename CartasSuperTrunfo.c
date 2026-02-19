@@ -68,7 +68,7 @@ char estado1;
     printf("Digite o Numero de Pontos Turisticos: ");
     scanf("%d", &pontosTuristicos2);
   // Área para exibição dos dados da cidade
-    printf("\nCarta 1:\n");
+printf("\nCarta 1:\n");
     printf("Estado: %c\n", estado1);
     printf("Codigo: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
@@ -85,6 +85,6 @@ char estado1;
     printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
-
+    
 return 0;
 } 
